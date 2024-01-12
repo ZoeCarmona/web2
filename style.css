@@ -1,0 +1,16 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    width: 150px;
+    height: 180px;
+    background-color: blue;
+    border: 10px solid red;
+    /* Cambia a tamaño que se dijo */
+    box-sizing: border-box; 
+    font-size: 70px;
+    overflow: hidden; 
+    /* overflow: auto; */
+    text-overflow: ellipsis;
+}
